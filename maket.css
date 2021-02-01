@@ -1,0 +1,222 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	background-color: #fff;
+
+}
+*{
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{margin: 0;}
+
+p{margin: 0	0 10px}
+
+.container{
+	max-width: 1219px;
+	margin: 0 auto;
+/*  	padding:0 55px;*/
+}
+/*header*/
+.header{
+width: 100%;
+height: 84px;
+background: #007765;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1000;
+
+
+}
+
+.header_logo{
+width: 184px;
+height: 45px;
+left: 501px;
+top: 20px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.nav_link{
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	border-right: 2px solid white;
+	padding: 0 15px; 
+}
+.nav_link:last-child {
+	border-right: none;
+	}
+	/*jumbotron*/
+.jumbotron{
+	/*выравнивание блока по вертикали по центру*/
+	display: flex;
+	flex-direction: column; /*каждый элемент с новой строки*/
+	justify-content: center;
+	padding-top: 84px;
+	height: 483px;
+	/*разместить картинку фоном по центру без повторов на всю ширину блока*/
+	background: #007765 url("img/image.png") center no-repeat;
+	background-size: cover;
+}
+.jumbotron_title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	color: #FFF;
+}
+/*The promlem*/
+.problem{
+	display: flex;
+/*	flex-direction: column;*/ /*каждый элемент с новой строки*/
+	justify-content: center;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background: #EEEEEE;
+}
+.problem_inner{
+	max-width: 1110px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.problem_title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+.problem_text{
+	padding-top: 20px;
+	font-family: Roboto;
+	font-style:normal;
+	font-size: 32px;
+	line-height: 37.5px;
+	text-align: left;
+	vertical-align: top;
+}
+/*Hero*/
+.hero{
+	background: url("img/image-1.png")center no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 483px;
+}
+.container_hero{
+	box-sizing: border-box;
+	height: 483px;
+	max-width: 1219px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 127px 163px;
+}
+.container_text{
+	font-family: Roboto;
+	font-weight: 500;
+	font-style:italic;
+	font-size: 48px;
+	line-height: 56.25px;
+	color: #fff;
+	text-align: center;
+}
+/* PPC */
+.PPC{
+	display: flex;
+	flex-direction: column; /*каждый элемент с новой строки*/
+	justify-content: center;
+	height: 604px;
+	text-align: center;
+}
+.img_pps {
+	width: 115px;
+	height: 115px;
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 48px 7px 0; /* Отступы вокруг картинки */
+   }
+/*The Time*/
+.the_time{
+	background-color: #EEEEEE;
+	padding-top: 12px;
+}
+.people{
+	display: flex;
+	flex-wrap:wrap;
+	width: 100%;
+	padding: 32px 55px;
+}
+.human{
+	background: url("img/image-2.png")no-repeat top;
+	width: 350px;
+	padding-top: 180px;
+	text-align: center;
+	height: 283px;
+	text-align: center;
+	box-sizing: border-box;
+/*  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;*/
+}
+.human2{
+	background: url("img/image-3.png")no-repeat top;
+}
+.human3{
+	background: url("img/image-4.png")no-repeat top;
+}
+.human4{
+	background: url("img/image-5.png")no-repeat top;
+}
+.human5{
+	background: url("img/image-6.png")no-repeat top;
+}
+.human6{
+	background: url("img/image-7.png")no-repeat top;
+}
+.fio{
+	font-family: Roboto;
+	font-weight: 700;
+	font-style:normal;
+	font-size: 24px;
+	line-height: 28,13px;
+	color: #007765;
+	text-align: center;
+}
+.prof{
+	font-family: Roboto;
+	font-weight: 400;
+	font-style:italic;
+	font-size: 18px;
+	line-height: 21,09px;
+	text-align: center;
+}
+/*Rectangle*/
+.Rectangle{
+	background-color: #333333;
+	padding: 48px 64px;
+}
+.footer{
+	max-width: 540px;
+	color: white;
+	font-family: Roboto;
+	font-weight: 400;
+	font-style:normal;
+	font-size: 18px;
+	line-height: 21,09px;
+	text-align: center;
+}
